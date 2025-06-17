@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: gold;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #111;
+  border-bottom: 2px solid gold;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: gold;
+  font-weight: bold;
+}
+.auth input {
+  padding: 5px;
+  margin: 0 5px;
+  background: #222;
+  color: white;
+  border: 1px solid gold;
+}
+.auth button {
+  padding: 5px 10px;
+  background: gold;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hero, .promo, .games, .wallet {
+  padding: 20px;
+  text-align: center;
+}
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+.game-card {
+  background: #222;
+  padding: 20px;
+  border: 2px solid gold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.game-card:hover {
+  background: gold;
+  color: black;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #111;
+  border-top: 2px solid gold;
+}

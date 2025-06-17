@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Bet - Cassino Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🎰 Lucky Bet</div>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Jogos</a>
+      <a href="#">VIP</a>
+      <a href="#">Comprar Moedas</a>
+      <a href="#">Afiliados</a>
+      <a href="#">Suporte</a>
+    </nav>
+    <div class="auth">
+      <input type="text" id="username" placeholder="Usuário">
+      <input type="password" id="password" placeholder="Senha">
+      <button onclick="login()">Entrar</button>
+      <button onclick="register()">Registrar</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Bem-vindo ao Lucky Bet</h1>
+    <p>Ganhe Lucky Coins, jogue, suba de nível e torne-se VIP!</p>
+  </section>
+
+  <section class="promo">
+    <h2>🎁 Bônus diário e promoções ativas!</h2>
+    <p>Jogue todos os dias e receba recompensas!</p>
+  </section>
+
+  <section class="games">
+    <h2>🎮 Jogos em Destaque</h2>
+    <div class="game-grid">
+      <div class="game-card" onclick="playGame('Roleta')">Roleta</div>
+      <div class="game-card" onclick="playGame('Slots')">Caça-níquel</div>
+      <div class="game-card" onclick="playGame('Blackjack')">Blackjack</div>
+      <div class="game-card" onclick="playGame('Crash')">Crash</div>
+    </div>
+  </section>
+
+  <section class="wallet">
+    <h2>💰 Suas Lucky Coins: <span id="coins">1000</span></h2>
+  </section>
+
+  <footer>
+    <p>© 2025 Lucky Bet - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
